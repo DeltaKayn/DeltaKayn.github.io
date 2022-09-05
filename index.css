@@ -1,0 +1,67 @@
+html {
+	background-image: url(../HTML/IMG/cons.svg);
+	background-size:auto;
+}
+header {
+	text-align: center;
+	margin-top: -50px;
+}
+.PP {
+	margin-top: 30px;
+}
+.contain {
+	margin: 80px auto;
+	width: 1000px;
+	height: 600px;
+	background:rgba(128, 128, 128, .5);
+	color: white;
+	font-family: cursive;
+	border-radius: 10%;
+}
+.text {
+	font-family: cursive;
+	font-size: 30px;
+	color: white;
+}
+.name {
+	text-align: center;
+}
+table th {
+	vertical-align: top;
+}
+.ddbtn {
+	min-width: 150px;
+	min-height: 50px;
+	background-color: lightgray;
+	border-radius: 50%;
+	font-family: cursive;
+	border: none;
+}
+.ddbtn:hover {
+	background-color: #ca5cdd;
+}
+.dd {
+	position: relative;
+	display: inline-block;
+}
+.ddchild {
+	display: none;
+	background-color: ##0ADD08;
+	min-width: 150px;
+}
+.ddchild a {
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	background-color: white;
+	border-radius: 50%;
+}
+.dd:hover .ddchild {
+	display: block;
+}
+.ddchild:hover {
+}
+a:hover {
+	background-color: lightgray;
+}
